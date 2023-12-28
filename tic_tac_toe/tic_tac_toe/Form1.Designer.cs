@@ -29,6 +29,7 @@ namespace tic_tac_toe
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.butNewGame = new System.Windows.Forms.Button();
             this.but2 = new System.Windows.Forms.Button();
             this.but3 = new System.Windows.Forms.Button();
@@ -39,14 +40,15 @@ namespace tic_tac_toe
             this.but8 = new System.Windows.Forms.Button();
             this.but9 = new System.Windows.Forms.Button();
             this.but1 = new System.Windows.Forms.Button();
-            this.butStart = new System.Windows.Forms.Button();
+            this.but2Players = new System.Windows.Forms.Button();
+            this.but1Player = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // butNewGame
             // 
             this.butNewGame.BackColor = System.Drawing.Color.White;
             this.butNewGame.Font = new System.Drawing.Font("Segoe Script", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butNewGame.Location = new System.Drawing.Point(199, 488);
+            this.butNewGame.Location = new System.Drawing.Point(192, 24);
             this.butNewGame.Name = "butNewGame";
             this.butNewGame.Size = new System.Drawing.Size(195, 69);
             this.butNewGame.TabIndex = 1;
@@ -154,17 +156,29 @@ namespace tic_tac_toe
             this.but1.UseVisualStyleBackColor = false;
             this.but1.Click += new System.EventHandler(this.but1_Click);
             // 
-            // butStart
+            // but2Players
             // 
-            this.butStart.BackColor = System.Drawing.Color.White;
-            this.butStart.Font = new System.Drawing.Font("Segoe Script", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butStart.Location = new System.Drawing.Point(216, 12);
-            this.butStart.Name = "butStart";
-            this.butStart.Size = new System.Drawing.Size(151, 69);
-            this.butStart.TabIndex = 13;
-            this.butStart.Text = "Start";
-            this.butStart.UseVisualStyleBackColor = false;
-            this.butStart.Click += new System.EventHandler(this.butStart_Click);
+            this.but2Players.BackColor = System.Drawing.Color.White;
+            this.but2Players.Font = new System.Drawing.Font("Segoe Script", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but2Players.Location = new System.Drawing.Point(290, 487);
+            this.but2Players.Name = "but2Players";
+            this.but2Players.Size = new System.Drawing.Size(151, 69);
+            this.but2Players.TabIndex = 14;
+            this.but2Players.Text = "2 players";
+            this.but2Players.UseVisualStyleBackColor = false;
+            this.but2Players.Click += new System.EventHandler(this.but2Players_Click);
+            // 
+            // but1Player
+            // 
+            this.but1Player.BackColor = System.Drawing.Color.White;
+            this.but1Player.Font = new System.Drawing.Font("Segoe Script", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but1Player.Location = new System.Drawing.Point(123, 487);
+            this.but1Player.Name = "but1Player";
+            this.but1Player.Size = new System.Drawing.Size(151, 69);
+            this.but1Player.TabIndex = 15;
+            this.but1Player.Text = "1 player";
+            this.but1Player.UseVisualStyleBackColor = false;
+            this.but1Player.Click += new System.EventHandler(this.but1Player_Click);
             // 
             // Form1
             // 
@@ -172,7 +186,8 @@ namespace tic_tac_toe
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::tic_tac_toe.Properties.Resources._703741708120d281e12ccd61cb163b40;
             this.ClientSize = new System.Drawing.Size(574, 629);
-            this.Controls.Add(this.butStart);
+            this.Controls.Add(this.but1Player);
+            this.Controls.Add(this.but2Players);
             this.Controls.Add(this.but1);
             this.Controls.Add(this.but9);
             this.Controls.Add(this.but8);
@@ -183,6 +198,7 @@ namespace tic_tac_toe
             this.Controls.Add(this.but3);
             this.Controls.Add(this.but2);
             this.Controls.Add(this.butNewGame);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(600, 700);
             this.MinimizeBox = false;
@@ -190,6 +206,7 @@ namespace tic_tac_toe
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic Tac Toe";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
@@ -206,7 +223,8 @@ namespace tic_tac_toe
         private System.Windows.Forms.Button but8;
         private System.Windows.Forms.Button but9;
         private System.Windows.Forms.Button but1;
-        private System.Windows.Forms.Button butStart;
+        private System.Windows.Forms.Button but2Players;
+        private System.Windows.Forms.Button but1Player;
     }
 }
 

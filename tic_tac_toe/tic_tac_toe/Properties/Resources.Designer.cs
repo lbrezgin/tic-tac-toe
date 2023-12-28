@@ -63,39 +63,9 @@ namespace tic_tac_toe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1626160774_64_kartinkin_com_p_fon_dlya_chata_telegramm_krasivo_64 {
-            get {
-                object obj = ResourceManager.GetObject("1626160774_64-kartinkin-com-p-fon-dlya-chata-telegramm-krasivo-64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1644433871_7_adonius_club_p_fon_krestiki_noliki_12 {
-            get {
-                object obj = ResourceManager.GetObject("1644433871_7-adonius-club-p-fon-krestiki-noliki-12", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _703741708120d281e12ccd61cb163b40 {
             get {
                 object obj = ResourceManager.GetObject("703741708120d281e12ccd61cb163b40", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pattern_corals_wallpaper {
-            get {
-                object obj = ResourceManager.GetObject("pattern-corals-wallpaper", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

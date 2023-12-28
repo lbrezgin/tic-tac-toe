@@ -118,15 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pattern-corals-wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pattern-corals-wallpaper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1644433871_7-adonius-club-p-fon-krestiki-noliki-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1644433871_7-adonius-club-p-fon-krestiki-noliki-12.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1626160774_64-kartinkin-com-p-fon-dlya-chata-telegramm-krasivo-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1626160774_64-kartinkin-com-p-fon-dlya-chata-telegramm-krasivo-64.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="703741708120d281e12ccd61cb163b40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\703741708120d281e12ccd61cb163b40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
