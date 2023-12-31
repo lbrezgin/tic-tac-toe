@@ -15,7 +15,7 @@ This Windows Form application implements the classic game of Tic Tac Toe. It pro
 
 ### Installation:
 
-1. Navigate to the "info/4_programmesana" folder.
+1. Navigate to the "info/4_programmesana" or "tic_tac_toe/Setup1/Debug" folder.
 2. Run the "setup.exe" file to install the game.
 
 ### Launch the Game:
