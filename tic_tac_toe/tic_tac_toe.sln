@@ -5,13 +5,24 @@ VisualStudioVersion = 16.0.34301.259
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tic_tac_toe", "tic_tac_toe\tic_tac_toe.csproj", "{9A7E2575-E150-42D4-BB38-550804953960}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{ACC73B1F-F917-415F-A434-02EEE67ED849}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		development|Any CPU = development|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A7E2575-E150-42D4-BB38-550804953960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A7E2575-E150-42D4-BB38-550804953960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A7E2575-E150-42D4-BB38-550804953960}.development|Any CPU.ActiveCfg = development|Any CPU
 		{9A7E2575-E150-42D4-BB38-550804953960}.development|Any CPU.Build.0 = development|Any CPU
+		{9A7E2575-E150-42D4-BB38-550804953960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A7E2575-E150-42D4-BB38-550804953960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC73B1F-F917-415F-A434-02EEE67ED849}.Debug|Any CPU.ActiveCfg = Debug
+		{ACC73B1F-F917-415F-A434-02EEE67ED849}.development|Any CPU.ActiveCfg = Debug
+		{ACC73B1F-F917-415F-A434-02EEE67ED849}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
